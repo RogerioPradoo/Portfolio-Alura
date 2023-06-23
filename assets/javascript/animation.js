@@ -1,6 +1,4 @@
 const observar = new IntersectionObserver(entries => {
-
-    console.log(entries)
     Array.from(entries).forEach(entry => {
         if (entry.intersectionRatio >= 1) {
             entry.target.classList.add('hidden-off')

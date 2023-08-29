@@ -1,3 +1,6 @@
+@import url("animation.css");
+@import url("flex.css");
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
